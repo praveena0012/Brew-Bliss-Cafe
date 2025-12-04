@@ -1,0 +1,27 @@
+{
+  "name": "brew-bliss-cafe-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Brew Bliss Cafe reservations system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cafe", "reservations", "mongodb", "express", "api"],
+  "author": "Brew Bliss Cafe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
