@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Feedback - Brew Bliss Cafe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <div id="navbar-container"></div>
+
+  <!-- Hero Section -->
+  <section class="hero-section contact-hero">
+    <div class="hero-overlay"></div>
+    <div class="container h-100 d-flex align-items-center">
+      <div class="row w-100">
+        <div class="col-lg-8 mx-auto text-center text-white">
+          <h1 class="display-2 fw-bold mb-4 animate-fade-in">Contact Us</h1>
+          <p class="lead mb-4 animate-fade-in-delay">We'd love to hear from you! Get in touch with us</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Information -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center mb-5">
+          <h2 class="display-4 fw-bold text-primary mb-3">Get In Touch</h2>
+          <p class="lead text-muted">We're here to help and answer any questions you might have</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="card-body">
+              <i class="bi bi-geo-alt-fill text-primary display-1 mb-3"></i>
+              <h5 class="fw-bold mb-3">Visit Us</h5>
+              <p class="text-muted">No 151/5, Embilipitiya Road<br>Sooriyawewa, Sri Lanka</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="card-body">
+              <i class="bi bi-telephone-fill text-primary display-1 mb-3"></i>
+              <h5 class="fw-bold mb-3">Call Us</h5>
+              <p class="text-muted">
+                <a href="tel:+9457896421" class="text-decoration-none text-muted">+94 57 896 421</a><br>
+                <a href="tel:+9437289218" class="text-decoration-none text-muted">+94 37 298 218</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="card-body">
+              <i class="bi bi-envelope-fill text-primary display-1 mb-3"></i>
+              <h5 class="fw-bold mb-3">Email Us</h5>
+              <p class="text-muted">
+                <a href="mailto:info@brewbliss.lk" class="text-decoration-none text-muted">info@brewbliss.lk</a><br>
+                <small>We'll respond within 24 hours</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opening Hours -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center mb-5">
+          <h2 class="display-4 fw-bold text-primary mb-3">Opening Hours</h2>
+          <p class="lead text-muted">Come visit us during our operating hours</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="opening-hours">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="fw-semibold">Monday - Friday</span>
+              <span class="text-muted">7:00 AM – 9:00 PM</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="fw-semibold">Saturday & Sunday</span>
+              <span class="text-muted">8:00 AM – 10:00 PM</span>
+            </div>
+            <hr>
+            <div class="text-center">
+              <p class="text-muted mb-0">We're closed on public holidays</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="contact-card p-5 rounded-3 shadow-sm">
+            <div class="text-center mb-5">
+              <h2 class="fw-bold text-primary mb-3">Send Us a Message</h2>
+              <p class="text-muted">We'd love to hear your feedback and suggestions</p>
+            </div>
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label fw-semibold">Your Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label fw-semibold">Email Address</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="phone" class="form-label fw-semibold">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+                <div class="col-md-6">
+                  <label for="subject" class="form-label fw-semibold">Subject</label>
+                  <select class="form-select" id="subject" name="subject" required>
+                    <option value="">Choose a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="reservation">Reservation</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="rating" class="form-label fw-semibold">How would you rate your experience?</label>
+                  <div class="rating-input d-flex gap-2 mb-3">
+                    <input type="radio" name="rating" value="1" id="star1" class="d-none">
+                    <label for="star1" class="star-label"><i class="bi bi-star"></i></label>
+                    <input type="radio" name="rating" value="2" id="star2" class="d-none">
+                    <label for="star2" class="star-label"><i class="bi bi-star"></i></label>
+                    <input type="radio" name="rating" value="3" id="star3" class="d-none">
+                    <label for="star3" class="star-label"><i class="bi bi-star"></i></label>
+                    <input type="radio" name="rating" value="4" id="star4" class="d-none">
+                    <label for="star4" class="star-label"><i class="bi bi-star"></i></label>
+                    <input type="radio" name="rating" value="5" id="star5" class="d-none">
+                    <label for="star5" class="star-label"><i class="bi bi-star"></i></label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label fw-semibold">Your Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell us about your experience or ask us anything..." required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-primary btn-lg px-5">
+                    <i class="bi bi-send me-2"></i>Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media -->
+  <section class="py-5 bg-light text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="display-4 fw-bold mb-3">Follow Us</h2>
+          <p class="lead mb-4">Stay connected and get the latest updates</p>
+          <div class="social-links">
+            <a href="#" class="text-white me-4"><i class="bi bi-facebook fs-1"></i></a>
+            <a href="#" class="text-white me-4"><i class="bi bi-instagram fs-1"></i></a>
+            <a href="#" class="text-white me-4"><i class="bi bi-twitter fs-1"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-tiktok fs-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/script/script.js"></script>
+  <script src="/script/components.js"></script>
+  
+  <!-- Additional CSS for contact page -->
+  <style>
+    .contact-card {
+      background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+      border: 1px solid rgba(139, 69, 19, 0.1);
+    }
+    
+    .star-label {
+      font-size: 1.5rem;
+      color: #ddd;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+    
+    .star-label:hover,
+    .star-label:hover ~ .star-label {
+      color: #ffc107;
+    }
+    
+    input[name="rating"]:checked ~ .star-label {
+      color: #ffc107;
+    }
+    
+    /* Fix for proper star selection */
+    .rating-input input[type="radio"]:checked + .star-label {
+      color: #ffc107;
+    }
+    
+    .rating-input input[type="radio"]:checked ~ .star-label {
+      color: #ffc107;
+    }
+    
+    .rating-input {
+      justify-content: center;
+    }
+  </style>
+  
+  <script>
+    // Fix star rating functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const starInputs = document.querySelectorAll('input[name="rating"]');
+      const starLabels = document.querySelectorAll('.star-label');
+      
+      starInputs.forEach((input, index) => {
+        input.addEventListener('change', function() {
+          // Reset all stars
+          starLabels.forEach(label => {
+            label.style.color = '#ddd';
+          });
+          
+          // Color stars up to selected rating
+          for (let i = 0; i <= index; i++) {
+            starLabels[i].style.color = '#ffc107';
+          }
+        });
+      });
+      
+      // Add hover effects
+      starLabels.forEach((label, index) => {
+        label.addEventListener('mouseenter', function() {
+          // Reset all stars
+          starLabels.forEach(l => {
+            l.style.color = '#ddd';
+          });
+          
+          // Color stars up to hovered star
+          for (let i = 0; i <= index; i++) {
+            starLabels[i].style.color = '#ffc107';
+          }
+        });
+      });
+      
+      // Reset on mouse leave if no selection
+      document.querySelector('.rating-input').addEventListener('mouseleave', function() {
+        const checkedInput = document.querySelector('input[name="rating"]:checked');
+        if (!checkedInput) {
+          starLabels.forEach(label => {
+            label.style.color = '#ddd';
+          });
+        } else {
+          const checkedIndex = Array.from(starInputs).indexOf(checkedInput);
+          starLabels.forEach((label, index) => {
+            label.style.color = index <= checkedIndex ? '#ffc107' : '#ddd';
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
